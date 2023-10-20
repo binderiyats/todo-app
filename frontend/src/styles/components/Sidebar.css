@@ -1,0 +1,10 @@
+.sidebar {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  bottom: 0;
+  width: 195px;
+  /* make a variable */
+  background-color: #006d77;
+  color: #ffddd2;
+}

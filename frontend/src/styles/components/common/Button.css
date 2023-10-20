@@ -1,0 +1,27 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background-color: #006d77;
+  color: #ffddd2;
+}
+
+.button.outline {
+  border: 3px solid #006d77;
+  background-color: #ffddd2;
+  color: #006d77;
+}
+
+.button.medium {
+  padding: 12px 35px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.button.large {
+  padding: 10px 80px;
+  font-size: 17px;
+  line-height: normal;
+}

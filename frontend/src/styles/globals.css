@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=League+Spartan:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  top: 70px;
+  left: 195px;
+  right: 0;
+  bottom: 0;
+  background-color: #ffddd2;
+  color: #006d77;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.addTask {
+  text-align: center;
+}
+
+.list {
+  text-align: center;
+}
