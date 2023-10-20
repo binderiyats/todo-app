@@ -13,10 +13,14 @@ button {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .content {
   position: absolute;
   top: 70px;
-  left: 195px;
+  left: 250px;
   right: 0;
   bottom: 0;
   background-color: #ffddd2;

@@ -1,5 +1,5 @@
 import ".././styles/pages/EditTaskPage.css";
 
-export const EditTask = () => {
+export const EditTaskPage = () => {
   return <div>EditTask</div>;
 };

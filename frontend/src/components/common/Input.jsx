@@ -8,6 +8,7 @@ export const Input = ({
   name,
   error = false,
   errorMsg,
+  Icon,
   ...rest
 }) => {
   return (

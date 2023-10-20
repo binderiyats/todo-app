@@ -6,4 +6,19 @@
   left: 0;
   right: 0;
   height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+}
+
+.header button {
+  color: #006d77;
+}
+
+.header-right-side-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }

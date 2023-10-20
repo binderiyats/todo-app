@@ -6,6 +6,8 @@ import { MainLayouts } from "./layouts/MainLayouts";
 import { Home } from "./pages/Home";
 import { CompletedTaskPage } from "./pages/CompletedTaskPage";
 import { AddTaskPage } from "./pages/AddTaskPage";
+import { RunningTaskPage } from "./pages/RunningTaskPage";
+import { EditTaskPage } from "./pages/EditTaskPage";
 
 function App() {
   const [todoList, setTodoList] = useState([]);
@@ -74,8 +76,10 @@ function App() {
     <Routes>
       <Route element={<MainLayouts />}>
         <Route path="/" element={<Home />} />
+        <Route path="/running-task" element={<RunningTaskPage />} />
         <Route path="/completed-task" element={<CompletedTaskPage />} />
         <Route path="/add-task" element={<AddTaskPage />} />
+        <Route path="/edit-task" element={<EditTaskPage />} />
       </Route>
     </Routes>
   );
